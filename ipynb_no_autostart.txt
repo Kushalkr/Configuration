@@ -1,0 +1,5 @@
+$([IPython.events]).on("notebook_loaded.Notebook", function () {
+           IPython.notebook.set_autosave_interval(0);
+	    });
+
+add above lines in the /home/kushal/miniconda/lib/python2.7/site-packages/notebook/static/custom/custom.js file

@@ -1,0 +1,1 @@
+conda install -c conda-forge -n py3 numpy scipy pandas cartopy ipython notebook xarray netcdf4 scikit-learn keras tensorflow sympy librosa matplotlib pillow pandoc pygrib seaborn xlrd

@@ -1,1 +1,5 @@
-conda install -c conda-forge -n py3 numpy scipy pandas cartopy ipython notebook xarray netcdf4 scikit-learn keras tensorflow sympy librosa matplotlib pillow pandoc pygrib seaborn xlrd
+conda config --set auto_activate_base false
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+
+conda install -n mypy numpy scipy pandas cartopy ipython notebook xarray netcdf4 scikit-learn keras tensorflow sympy librosa matplotlib pillow pandoc pygrib seaborn xlrd basemap basemap-data-hires wrf-python ncl statsmodels dask metpy
